@@ -1,0 +1,8 @@
+out/
+cache/
+lib/
+node_modules/
+.env
+.env.local
+broadcast/
+*.log
