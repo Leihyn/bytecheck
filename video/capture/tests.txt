@@ -1,0 +1,23 @@
+No files changed, compilation skipped
+
+Ran 17 tests for test/CalldataParityModule.t.sol:CalldataParityModuleTest
+[PASS] testFuzz_anyByteMutation_isRefused(uint256,bytes32) (runs: 256, μ: 38741, ~: 38741)
+[PASS] test_anyRelayerMaySubmit() (gas: 97165)
+[PASS] test_badSignatureLength_reverts() (gas: 25017)
+[PASS] test_expiredIntent_reverts() (gas: 23518)
+[PASS] test_intentIsBoundToOneSafe() (gas: 424092)
+[PASS] test_malleableSignature_reverts() (gas: 30190)
+[PASS] test_moduleDisabled_reverts() (gas: 42067)
+[PASS] test_nativeValueWithinCap_transfers() (gas: 75265)
+[PASS] test_nonProposerSignature_reverts() (gas: 35540)
+[PASS] test_onlySafeMayConfigure() (gas: 14401)
+[PASS] test_relayerFlippingTupleBool_isRefused() (gas: 51438)
+[PASS] test_replayedIntent_reverts() (gas: 100498)
+[PASS] test_signedBytes_execute() (gas: 104005)
+[PASS] test_targetNotAllowlisted_reverts() (gas: 25873)
+[PASS] test_valueOverCap_reverts() (gas: 30506)
+[PASS] test_valueToNonPayableFunction_surfacesFailure() (gas: 74245)
+[PASS] test_withoutModule_driftedBytesTakeTheWrongBranch() (gas: 83989)
+Suite result: ok. 17 passed; 0 failed; 0 skipped; finished in 76.94ms (129.76ms CPU time)
+
+Ran 1 test suite in 83.60ms (76.94ms CPU time): 17 tests passed, 0 failed, 0 skipped (17 total tests)
